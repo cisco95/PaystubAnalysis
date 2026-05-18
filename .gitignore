@@ -1,0 +1,4 @@
+debug.png
+*.png
+output.txt
+__pycache__/
