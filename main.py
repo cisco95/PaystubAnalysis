@@ -1,4 +1,4 @@
-from paystubTools import *;
+import paystubTools
 import user_interface
 
 def printPDFContentsToText(storage, outputFileName):
@@ -13,7 +13,7 @@ if __name__ == "__main__":
         user_interface.test()
         filename = user_interface.promptUser()
         PDFTableItemsList = paystubTools.pdfProcessor(filename)
-        printPDFContentsToText(PDFTableItemsList, testOutputs)
+        printPDFContentsToText(PDFTableItemsList, "testOutputs")
 
 
 
